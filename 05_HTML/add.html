@@ -10,48 +10,99 @@
     <form action="http://fe.it-academy.by/TestForm.php"></form>
     <FIELDSET>
         <legend>личные данные</legend>
-            <input type="text"><br>
-            <input type="text"><br>
-            <input type="text"><br>
+            <input type="text"size="25"placeholder="Фамилия"><br>
+            <input type="text"size="20"placeholder="Имя"><br>
+            <input type="text"size="24"placeholder="Отчество"><br>
         <FIELDSET>
             <legend>Паспортные данные</legend>
-            <input type="text">
-            <input type="text">
+                <input type="text"size="1"pattern="^[A-Z]{1-2}.*" placeholder="серия">
+                <input type="text" id="index_1"name="index_1"pattern="[0-9]{6,10}"placeholder="номер паспорта">
         </FIELDSET>
         <FIELDSET>
             <legend>дата рождения</legend>
-            <input type="text">
+                <label for ="index_1" >год рождения
+                    <INPUT TYPE="text" ID="index_1" NAME="index_1"pattern="[0-9]{6,10}"> <small>(4) цифры</small><br>
+                        <select name="list" id="list">
+                            <optgroup label="месяц рождения">
+                                <option value="1">Январь</option>
+                                <option value="2">Февраль</option>
+                                <option value="3">Март</option>
+                                <option value="4">Апрель</option>
+                                <option value="5">Май</option>
+                                <option value="6">Июнь</option>
+                                <option value="7">Июль</option>
+                                <option value="8">Август</option>
+                                <option value="9">Сентябрь</option>
+                                <option value="10">Октябрь</option>
+                                <option value="11">Ноябрь</option>
+                                <option value="12">Декабь</option>
+                            </optgroup>
+                        </select>
+                </label>
         </FIELDSET>
         <FIELDSET>
-            <legend>ffgg</legend>
+            <select name="list" id="list">
+                <optgroup label="национальность">
+                    <option value="01">РБ</option>
+                    <option value="02">РФ</option>
+                </optgroup>
+            </select>
+            <p>Адрес</p>
             <input type="text">
         </FIELDSET>
     </FIELDSET>
     <FIELDSET>
         <legend>Интересы</legend>
-        <input type="text">
+            <fieldset>
+                <legend>array:Хобби</legend>
+                    <input type="checkbox" name="Рыбалка">Рыбалка<br>
+                    <input type="checkbox" name="Рыбалка">Астрономия<br>
+                    <input type="checkbox" name="Рыбалка">Дайвинг<br>
+                    <input type="checkbox" name="Рыбалка">Марки<br>
+            </fieldset>
             <FIELDSET>
                 <legend>домашние животные</legend>
-                <input type="text">
+                    <select name="list[9]" size="3" multiple id="list">
+                        <optgroup label="попугаи">
+                            <option value="1">Волнистый</option>
+                            <option value="2">Ара</option>
+                            <option value="3">НЕразлучник</option>
+                    </optgroup>
+                    <optgroup label="Рыба">
+                            <option value="4">Караси</option>
+                            <option value="5">Окуни </option>
+                            <option value="6">Осетр</option>
+                    </optgroup>
+                    <optgroup>
+                        <option value="7">Стая ворон</option>
+                        <option value="8">Аист</option>
+                        <option value="9">Сокол</option>
+                    </optgroup>
+                    </select>
             </FIELDSET>
     </FIELDSET>
     <FIELDSET>
         <legend>данные для входа  востановления пароля</legend>
-        <input type="text">
+            <label for="login"></label>
+                <input type="text"ID="login"name="login"autofocus size="20"pattern="^[A-Z].*" placeholder="логин"required><br>
+                <input type="TEXT" ID="password" NAME="password" SIZE="20"autocomplete="off" maxlength="7"placeholder="Пароль"required>
+        </label>
     </FIELDSET>
     <FIELDSET>
         <legend>Координаты</legend>
-        <input type="text">
+            <input type="email"name="email"id="email" multiple><br>
+            <input type="url"name="url"id="url" multiple>
     </FIELDSET>
     <FIELDSET>
         <legend>Цыфры</legend>
-        <input type="text">
+            <input type="number" min="-2.5"max="2.5" step="0.1">
+            <input type="range" min="1" max="10">
     </FIELDSET>
     <FIELDSET>
         <form action="http://fe.it-academy.by/TestForm.php" ></form>
-        <input type="submit"value="Отправить"><input type="submit"value="Сбросить">
-        <legend>Кнопки управления</legend>
-        <a href="send.html"><img src="SEND.jpg"alt="img">"</a>
+        <input type="submit"value="Отправить"><input type="submit"value="Сбросить"><br>
+            <legend>Кнопки управления</legend>
+        <a href="send.html"><img src="SEND.jpg"alt="img"></a>
     </FIELDSET>
 </body>
 </html>
