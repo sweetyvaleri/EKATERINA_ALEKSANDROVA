@@ -10,13 +10,13 @@
     <form action="http://fe.it-academy.by/TestForm.php"></form>
     <FIELDSET>
         <legend>личные данные</legend>
-            <input type="text"size="25"placeholder="Фамилия"><br>
-            <input type="text"size="20"placeholder="Имя"><br>
-            <input type="text"size="24"placeholder="Отчество"><br>
+            <input type="text" size="25" placeholder="Фамилия"><br>
+            <input type="text" size="20" placeholder="Имя"><br>
+            <input type="text" size="24" placeholder="Отчество"><br>
         <FIELDSET>
             <legend>Паспортные данные</legend>
                 <input type="text"size="1"pattern="^[A-Z]{1-2}.*" placeholder="серия">
-                <input type="text" id="index_1"name="index_1"pattern="[0-9]{6,10}"placeholder="номер паспорта">
+                <input type="text" id="index_01"name="index_01"pattern="[0-9]{6,10}"placeholder="номер паспорта">
         </FIELDSET>
         <FIELDSET>
             <legend>дата рождения</legend>
@@ -41,8 +41,8 @@
                 </label>
         </FIELDSET>
         <FIELDSET>
-            <select name="list" id="list">
-                <optgroup label="национальность">
+            <select name="list_02" id="list_02">
+                <optgroup label="Nation">
                     <option value="01">РБ</option>
                     <option value="02">РФ</option>
                 </optgroup>
@@ -55,15 +55,15 @@
         <legend>Интересы</legend>
             <fieldset>
                 <legend>array:Хобби</legend>
-                    <input type="checkbox" name="Рыбалка">Рыбалка<br>
-                    <input type="checkbox" name="Рыбалка">Астрономия<br>
-                    <input type="checkbox" name="Рыбалка">Дайвинг<br>
-                    <input type="checkbox" name="Рыбалка">Марки<br>
+                    <input type="checkbox" name="Fishing">Рыбалка<br>
+                    <input type="checkbox" name="Astronomy">Астрономия<br>
+                    <input type="checkbox" name="Diving">Дайвинг<br>
+                    <input type="checkbox" name="Marks">Марки<br>
             </fieldset>
             <FIELDSET>
                 <legend>домашние животные</legend>
-                    <select name="list[9]" size="3" multiple id="list">
-                        <optgroup label="попугаи">
+                    <select name="list_9" size="3" multiple id="list_9">
+                        <optgroup label="Попугаи">
                             <option value="1">Волнистый</option>
                             <option value="2">Ара</option>
                             <option value="3">НЕразлучник</option>
@@ -73,7 +73,7 @@
                             <option value="5">Окуни </option>
                             <option value="6">Осетр</option>
                     </optgroup>
-                    <optgroup>
+                    <optgroup label="Птицы">
                         <option value="7">Стая ворон</option>
                         <option value="8">Аист</option>
                         <option value="9">Сокол</option>
