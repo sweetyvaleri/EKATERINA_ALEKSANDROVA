@@ -16,8 +16,8 @@
                         <input type="submit" value="Искать">
                         <br>
                         <label>
-                            <input type="radio" name="radio_group"value="value_01" id="Checkbox_Group1_0" checked> На сайте              
-                            <input type="radio" name="radio_group"value="value_02" id="Checkbox_Group2_0"> google
+                            <input type="radio" name="radio_group" value="value_01" id="Checkbox_Group1_0" checked> На сайте              
+                            <input type="radio" name="radio_group" value="value_02" id="Checkbox_Group2_0"> google
                         </label>
                 </fieldset>
                 </form>
@@ -30,8 +30,10 @@
                         <input type="submit"value="Искать"autofocus>
                         <br>
                         <label>
-                            <input type="radio" name="radio_group2"value="value_001" id="Checkbox_Group01_0" checked> На сайте
-                            <input type="radio" name="radio_group2"value="value_002" id="Checkbox_Group02_0"> google
+                            <input type="radio" name="radio_group2" value="value_001" id="Checkbox_Group01_0" checked> На сайте
+                        </label>
+                        <label>
+                            <input type="radio" name="radio_group2" value="value_002" id="Checkbox_Group02_0"> google
                         </label>
 
                 </FIEldset>
@@ -42,12 +44,17 @@
                 <FIEldset>
                     <LEGEnd>Авторизуйтесь</LEGEnd>
                         <label>
-                            <input type="pasword id"="passwd"name="password" size="10"placeholder="это обязательное поле" required>*Пароль<br>
-                            <input type="login id"="login"name="log" size="10"placeholder="это обязательное поле" required>*Логин<br>
+                            <input type="pasword" id="passwd"name="password" size="10"placeholder="это обязательное поле" required>*Пароль<br>
+                        </label>
+                        <label>
+                            <input type="login" id="login"name="log" size="10"placeholder="это обязательное поле" required>*Логин<br>
+                        </label>
+                        <label> 
                             <input type="checkbox"name="Forever"checked>
+                        </label>    
                             -оставаться в системе
+                        <label>
                             <input type="submit" value="войти">
-                            <br>
                         </label>
                 </FIEldset>
                 </form>
@@ -58,9 +65,17 @@
                         <br>
                             <label>
                                 <input type="radio" name="radio_group3"value="value_001" id="Checkbox_Group001_0" checked> Ничего<br>
+                            </label>  
+                            <label> 
                                 <input type="radio" name="radio_group3"value="value_002" id="Checkbox_Group002_0">Неплохо<br>
+                            </label>  
+                            <label>
                                 <input type="radio" name="radio_group3"value="value_003" id="Checkbox_Group003_0">Хорошо<br>
+                            </label>  
+                            <label>   
                                 <input type="radio" name="radio_group3"value="value_004" id="Checkbox_Group004_0">Супер<br>
+                            </label>  
+                            <label>   
                                 <input type="hidden" name="date_voite" value="2013.12.31"><br>
                             </label>
                         <input type="submit"value="Отправить">
@@ -72,8 +87,8 @@
             <td><form action="http://fe.it-academy.by/TestForm.php"method="post"><b>Отзыв:</b>
                 <fieldset>
                     <legend>Оставьте Ваш отзыв</legend>
-                        <input type="name id"="name"name="name" size="10"placeholder="это обязательное поле" required>*Имя<br>
-                        <input type="mail id"="e-mail"name="e-mail" size="10"placeholder="это обязательное поле" required>*e-mail
+                        <input type="name" id="name"name="name" size="10"placeholder="это обязательное поле" required>*Имя<br>
+                        <input type="mail" id="e-mail"name="e-mail" size="10"placeholder="это обязательное поле" required>*e-mail
                         <br>
                         <textarea name="text_area” lang="ru"> Форма отправки</textarea><br>
                         <input type="submit"value="Отправить">
@@ -83,7 +98,7 @@
             <td><form action="http://fe.it-academy.by/TestForm.php" ><b>Выпадающий и мульти списки:</b>
                     <fieldset>
                         <legend>Города РБ</legend>
-                            <Select>
+                            <Select name="list_01" id="List_01">
                                 <option value="1">Минск</option>
                                 <option value="2">Брест</option>
                                 <option value="3">Витебск</option>
