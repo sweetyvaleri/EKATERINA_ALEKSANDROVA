@@ -1,5 +1,6 @@
 p{
- font: italic 12pt BadScript }
+    font-family: 'Bad Script', cursive;
+ }
 .new{
     font-family: "Roboto", sans-serif;
     text-align: right
