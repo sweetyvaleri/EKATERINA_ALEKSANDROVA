@@ -1,0 +1,25 @@
+.navigation{
+    width: 15em;
+    margin-bottom: 2em;
+    background-color:#A9A9A9;
+    display: block;
+    float: left;
+
+}
+.article_1{
+    margin-bottom: 0.2em;
+    background-color:#696969;
+    display: block;
+}
+.footer{
+    margin-bottom: 0.2em;
+    background-color: #696969;
+    clear: both;
+}
+.clear{
+    clear: both;
+}
+ .mail{
+    float: right;
+    clear:both;
+ }

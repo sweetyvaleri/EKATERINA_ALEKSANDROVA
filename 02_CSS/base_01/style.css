@@ -1,0 +1,40 @@
+
+.hearts {
+    position:absolute;
+    margin-top: -139px;
+    margin-left: 51px;
+    width: 200px ;
+    height:200px ;
+    padding: 20px;
+}
+.queen spades{
+    margin-top: -139px;
+    margin-left: 51px;
+    width: 200px ;
+    height:200px ;
+    padding: 20px;
+}
+.dimonds{
+    margin-top: -139px;
+    margin-left: 51px;
+    width: 200px ;
+    height:200px ;
+    padding: 20px;
+}
+.Ace Clubs{
+    left: 150px;
+    margin-left: 0%;
+}
+.Joker{
+    margin-top: -139px;
+    margin-left: 51px;
+    width: 200px ;
+    height:200px ;
+    padding: 20px;
+}
+.clear{
+    clear:both;
+}
+div{
+    display: block;
+}
