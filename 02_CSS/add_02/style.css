@@ -1,16 +1,26 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    align-content: stretch;
+    background-color: black;
+}
 .navigation{
     width: 15em;
+    height: 25em;
     margin-bottom: 2em;
     background-color:#A9A9A9;
     display: block;
     float: left;
-    height: 25em;
 }
 .article_1{
-    margin-bottom: 0.2em;
+    margin-bottom: 0.02em;
+    height: 12em;
     background-color:#696969;
     display: block;
-    height: 12em;
+    float:inherit
 }
 .footer{
     margin-bottom: 0.2em;
@@ -19,7 +29,6 @@
 }
 .clear{
     clear: both;
-    background-color: aliceblue;
 }
 div{
     display: block;
