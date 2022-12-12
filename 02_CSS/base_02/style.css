@@ -1,18 +1,27 @@
+    div{
+        background-color:pink;
+        width: 600px;
+        max-height:600px;
+        overflow: auto;
+        margin: 16px;
 
-        li {
-            list-style-type: lower-roman
-        }
-         li ol{
-            list-style-type: upper-roman
-        }
-        #layer {
-            background-color:black;
-            width: 400px;
-            max-height:4 px;
-            overflow: auto;
-            margin: 2px;
-        }
-        .color{
-           color: green;
-        }
+    }
+    ul{
+        list-style-type: upper-roman
+    }
+
+    ol li  {
+        list-style-type:lower-roman;
+    }
+         
+    #layer {
+        background-color:black;
+        width: 400px;
+        max-height:4em;
+        overflow: auto;
+        margin: 8px;
+    }
+    .color{
+        color: green;
+    }
     

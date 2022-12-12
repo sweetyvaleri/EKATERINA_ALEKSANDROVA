@@ -1,26 +1,26 @@
 .container{
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content:flex-start;
     flex-wrap: nowrap;
     align-items: stretch;
     align-content: stretch;
     background-color: black;
+    flex-grow: (16);
 }
 .navigation{
     width: 15em;
-    height: 25em;
     margin-bottom: 2em;
     background-color:#A9A9A9;
     display: block;
     float: left;
+    height: 35em;
 }
 .article_1{
-    margin-bottom: 0.02em;
-    height: 12em;
+    margin-bottom: 0.2em;
     background-color:#696969;
     display: block;
-    float:inherit
+    height: 16.89em;
 }
 .footer{
     margin-bottom: 0.2em;
@@ -29,11 +29,10 @@
 }
 .clear{
     clear: both;
-}
-div{
-    display: block;
+    background-color: black;
 }
  .mail{
     float: right;
-    clear:both;
+    height:125px;
+    width:125px;
  }

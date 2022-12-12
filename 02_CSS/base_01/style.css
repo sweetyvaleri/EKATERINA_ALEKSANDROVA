@@ -5,56 +5,53 @@ span{
     float: left;
     height: 183px;
 }
-.hearts {
-    position:absolute;
-    margin-top: -100px;
-    margin-left: 31px;
-    width: 125px ;
-    height:160px ;
-    padding:60px;
+.Ace {
+    width: 145px; 
+    height: 215px;
     background-image: url('cards.7e0a18f0.png');
     background-repeat: no-repeat;
-    background-position: -5px -15px;
+    background-position: -150px -185px;
+    font-size: 200px;
+    float: left;
 }
-.queen spades{
-    position:absolute;
-    margin-top: -500px;
-    margin-left: 51px;
-    width: 120px ;
-    height:300px ;
-    padding:50px;
+.queen{
+    width: 145px; 
+    height: 215px;
     background-image: url('cards.7e0a18f0.png');
     background-repeat: no-repeat;
-    background-position: -5px -15px;
+    background-position: -3px -1780px;
+    font-size: 200px;
+    float: left;
+
 }
 .dimonds{
-    margin-top: -139px;
-    margin-left: 51px;
-    width: 500px ;
-    height:100px ;
-    padding: 70px;
+    width: 145px; 
+    height: 215px;
     background-image: url('cards.7e0a18f0.png');
+    background-repeat: no-repeat;
+    background-position: -280px -1380px;
+    font-size: 200px;
+    float: left;
+
+
 }
-.Ace Clubs{
-    left: 150px;
-    margin-left: 66px;
-    margin-top: -13px;
-    width: 3300px ;
-    height:900px ;
-    padding: 80px;
+.HEARTS{
+    width: 145px; 
+    height: 215px;
     background-image: url('cards.7e0a18f0.png');
+    background-repeat: no-repeat;
+    background-position: -140px -2180px;
+    font-size: 200px;
+    float: left;
+  
+
 }
 .Joker{
-    margin-top: -13px;
-    margin-left: 101px;
-    width: 200px ;
-    height:200px ;
-    padding: 90px;
+    width: 145px; 
+    height: 215px;
     background-image: url('cards.7e0a18f0.png');
-}
-.clear{
-    clear:both;
-}
-div{
-    display: block;
+    background-repeat: no-repeat;
+    background-position: -5px -2380px;
+    font-size: 200px;
+    float: left;
 }

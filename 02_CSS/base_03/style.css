@@ -4,13 +4,12 @@
     background-color:#A9A9A9;
     display: block;
     float: left;
-    height: 25em;
+    height: 35em;
 }
 .article_1{
     margin-bottom: 0.2em;
     background-color:#696969;
-    display: block;
-    height: 12em;
+    height: 17.39em;
 }
 .footer{
     margin-bottom: 0.2em;
@@ -19,12 +18,9 @@
 }
 .clear{
     clear: both;
-    background-color: aliceblue;
-}
-div{
-    display: block;
 }
  .mail{
     float: right;
-    clear:both;
+    height:125px;
+    width:125px;
  }
