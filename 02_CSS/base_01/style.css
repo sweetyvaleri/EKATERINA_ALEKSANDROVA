@@ -1,20 +1,14 @@
-span{
-    font-size: 200px;
-    line-height: .7;
-    display: block;
-    float: left;
-    height: 183px;
-}
-.Ace {
+
+.Ace_1 {
     width: 145px; 
     height: 215px;
     background-image: url('cards.7e0a18f0.png');
     background-repeat: no-repeat;
     background-position: -150px -185px;
     font-size: 200px;
-    float: left;
+    float: left;  
 }
-.queen{
+.queen_1{
     width: 145px; 
     height: 215px;
     background-image: url('cards.7e0a18f0.png');
@@ -22,9 +16,8 @@ span{
     background-position: -3px -1780px;
     font-size: 200px;
     float: left;
-
 }
-.dimonds{
+.dimonds_1{
     width: 145px; 
     height: 215px;
     background-image: url('cards.7e0a18f0.png');
@@ -32,10 +25,8 @@ span{
     background-position: -280px -1380px;
     font-size: 200px;
     float: left;
-
-
 }
-.HEARTS{
+.HEARTS_1{
     width: 145px; 
     height: 215px;
     background-image: url('cards.7e0a18f0.png');
@@ -43,10 +34,8 @@ span{
     background-position: -140px -2180px;
     font-size: 200px;
     float: left;
-  
-
 }
-.Joker{
+.Joker_1{
     width: 145px; 
     height: 215px;
     background-image: url('cards.7e0a18f0.png');
@@ -54,4 +43,62 @@ span{
     background-position: -5px -2380px;
     font-size: 200px;
     float: left;
+}
+
+.Ace_2 {
+    width: 145px; 
+    height: 215px;
+    background-image: url('cards.7e0a18f0.png');
+    background-repeat: no-repeat;
+    background-position: -150px -185px;
+    font-size: 200px;
+    float: left;  
+}
+.queen_2{
+    width: 145px; 
+    height: 215px;
+    background-image: url('cards.7e0a18f0.png');
+    background-repeat: no-repeat;
+    background-position: -3px -1780px;
+    font-size: 200px;
+    float: left;
+    margin-left: -61px;
+    margin-top: 0px;
+}
+.dimonds_2{
+    width: 145px; 
+    height: 215px;
+    background-image: url('cards.7e0a18f0.png');
+    background-repeat: no-repeat;
+    background-position: -280px -1380px;
+    font-size: 200px;
+    float: left;
+    margin-left: 31px;
+    margin-left: -61px;
+    margin-top:  0px;
+}
+.HEARTS_2{
+    width: 145px; 
+    height: 215px;
+    background-image: url('cards.7e0a18f0.png');
+    background-repeat: no-repeat;
+    background-position: -140px -2180px;
+    font-size: 200px;
+    float: left;
+     margin-left: -61px;
+    margin-top:  0px;
+}
+.Joker_2{
+    width: 145px; 
+    height: 215px;
+    background-image: url('cards.7e0a18f0.png');
+    background-repeat: no-repeat;
+    background-position: -5px -2380px;
+    font-size: 200px;
+    float: left;
+    margin-left: -61px;
+    margin-top:  0px;
+}
+.clear{
+    clear: both;
 }
