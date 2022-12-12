@@ -1,5 +1,5 @@
 .navigation{
-    width: 15em;
+    width: 25em;
     margin-bottom: 2em;
     background-color:#A9A9A9;
     display: block;
@@ -7,12 +7,12 @@
     height: 35em;
 }
 .article_1{
-    margin-bottom: 0.2em;
+    margin-bottom:0.2em;
     background-color:#696969;
     height: 17.39em;
 }
 .footer{
-    margin-bottom: 0.2em;
+    margin-bottom:0.2em;
     background-color: #696969;
     clear: both;
 }
@@ -21,6 +21,6 @@
 }
  .mail{
     float: right;
-    height:125px;
-    width:125px;
+    height:150px;
+    width:150px;
  }
