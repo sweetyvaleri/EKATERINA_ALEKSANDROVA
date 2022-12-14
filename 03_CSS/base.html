@@ -6,31 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <Style>
-    div.Days { 
+    .Days { 
         width: 100px 
     }
-    div.Days > div { 
+    .Days > div { 
         background-color: rgb(85, 85, 84);
          border: solid black 1px; 
          position: relative; 
          cursor: pointer 
         }
-    div.Menu2{
+    .Menu2{
          width: 150px;
         display: none
          }
-    div.Menu2 > div { background-color: rgb(195, 195, 195);
+    .Menu2 > div { background-color: rgb(195, 195, 195);
          border: solid black 1px;
          cursor: pointer 
         }
-    div.Days > div:hover div.Menu2 { 
+    .Days > div:hover .Menu2 { 
         display: block; 
         position: absolute; 
         left: 80%; top: 90%;
         z-index: 1 
     }
-    .Menu2 {transform: scale(.8);}
-    
+    .Menu2 {
+        transform: scale(.8);
+    }
+    @media(max-width: 599px) {
+   .Days>div {
+      padding: 15px 20px;
+   }
+   .Menu2 div {
+      padding: 10px 20px;
+      margin: 0 20px;
+   }
     </Style>
 </head>
 <body>
