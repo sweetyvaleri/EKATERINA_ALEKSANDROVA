@@ -31,10 +31,13 @@
             background: rgb(148, 146, 146);
             border: black;
             cursor: pointer;
-    
         }
         ul li:hover {
             background: #555;
+            position: relative;
+            transition-property: background-color, color;
+            transition-duration: 1s;
+            transition-timing-function: ease-out;
         }
         ul li ul {
             position: absolute;
@@ -43,12 +46,14 @@
         ul li ul li { 
             background: #555; 
             display: block; 
+    
 }
         ul li ul li:hover { background: #666; }
         ul li:hover ul {
             display: block;
             opacity: 1;
             visibility: visible;
+            
         }
     </style>
 </head>
