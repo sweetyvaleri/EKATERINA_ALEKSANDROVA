@@ -7,7 +7,7 @@
     <title>Document</title>
     <style>
 
-        .img:hover span{
+.img:hover span{
             visibility: visible;
         }
         span{
@@ -15,6 +15,12 @@
             position: absolute;
             left:150px;
             background: #fff; 
+        }
+        a [href$="img"]::before{content: url(..adobe.png);
+            color: red;
+        }
+        a [href$="img"]::after {content: url(..adobe.png);
+            color: green;
         }
     </style>
 </head>
