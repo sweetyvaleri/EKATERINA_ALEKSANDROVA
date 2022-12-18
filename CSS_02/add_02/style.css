@@ -1,28 +1,21 @@
-
-.flex-container{
-    display: flex;
-    flex-direction:row;
-    align-self: flex-start;
-    flex-grow:2;
-}
-.way{
-    height: 230px;
-    width: 100%;
-    background-color: #696969;
-}
-.flex {
+body{
     display: flex;
     flex-direction: column;
-    align-self: flex-end;
+}
+.container{
+   display: flex;
+   flex-direction: row (1) ;
+}
+.way{
+    width: 15em;
+    background-color: #696969;
 }
 
 .article_1{
     margin-bottom:0.2em;
     background-color:#696969;
-}
-.article_2{
-    margin-bottom:0.2em;
-    background-color:#696969;
+    display: flex (1);
+    flex-direction: column;
 }
 .footer{
     margin-bottom:0.2em;
@@ -34,6 +27,6 @@
 }
  .mail{
     float: right;
-    height:25px;
-    width:25px;
+    height:45px;
+    width:45px;
  }
