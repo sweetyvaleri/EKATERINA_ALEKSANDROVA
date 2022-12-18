@@ -1,39 +1,39 @@
-.container{
+
+.flex-container{
+    display: flex;
+    flex-direction:row;
+    align-self: flex-start;
+    flex-grow:2;
+}
+.way{
+    height: 230px;
+    width: 100%;
+    background-color: #696969;
+}
+.flex {
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
-    flex-wrap: wrap;
-    align-items: stretch;
-    align-content: stretch;
-    background-color:yellow;
-    flex-grow: (16);
+    align-self: flex-end;
 }
-.navigation{
-    width: 15em;
-    margin: bottom 0.2em;
-    background-color:#A9A9A9;
-    display: block;
-    float: left;
-    height: 35em;
-}
+
 .article_1{
-    margin-bottom: 0.2em;
+    margin-bottom:0.2em;
     background-color:#696969;
-    display: block;
-    height: 16.89em;
-    margin-left: 15em;
-}   
-.clear{
-    clear: both;
-    background-color: black;
+}
+.article_2{
+    margin-bottom:0.2em;
+    background-color:#696969;
 }
 .footer{
-    margin-bottom: 0.2em;
+    margin-bottom:0.2em;
     background-color: #696969;
+    clear: both;
+}
+.clear{
     clear: both;
 }
  .mail{
     float: right;
-    height: 125px;
-    width:125px;
+    height:25px;
+    width:25px;
  }
