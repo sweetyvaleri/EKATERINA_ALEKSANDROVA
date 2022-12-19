@@ -1,22 +1,23 @@
-body{
-    display: flex;
-    flex-direction: column;
+body {
+    margin: 0.1em;
 }
 .container{
-   display: flex;
-   flex-direction: row (1) ;
+   flex-direction:column ;
+   height: auto;
+   background-color: grey;
+   align-items: flex-start;
+   margin-bottom: 0.2em;
+
 }
-.way{
+.box{
+    text-align: left;
     width: 15em;
     background-color: #696969;
-}
-
-.article_1{
-    margin-bottom:0.2em;
-    background-color:#696969;
-    display: flex (1);
+    float: left;
+    justify-content: center;
     flex-direction: column;
 }
+
 .footer{
     margin-bottom:0.2em;
     background-color: #696969;

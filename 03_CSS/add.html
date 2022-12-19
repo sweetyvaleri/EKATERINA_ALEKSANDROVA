@@ -11,48 +11,44 @@
             font-size: 13px;
             text-align: center;
             width: 100%;
-            @media screen {min-width: 768px;  <!--доделать-->
-            }
         }
 
         ul {
             text-align: left;
             display: inline;
             margin: 0;
-            padding: 15px 4px 17px 0;
+            padding: 15px 15px 17px 0;
             list-style: none;
 
         }
         ul li {
             display: inline-block;
-            margin-right: -4px;
+            margin-right: -1px;
             position: relative;
             padding: 15px 20px;
-            background: rgb(148, 146, 146);
+            background: rgb(241, 236, 236);
             border: black;
             cursor: pointer;
-            max-height:0px;
-    transition:max-height 2s linear;
+            max-height:2px;
+            transition: background-color 0.5s, color 0.4s;
         }
         ul li:hover {
             background: #555;
             position: relative;
-
         }
         ul li ul {
             position: absolute;
-            display: none;
+            opacity:0;
         }
         ul li ul li { 
             background: #555; 
-            display: block; 
-    
+            opacity: 1;
 }
         ul li ul li:hover { background: #666; }
         ul li:hover ul {
-            display: block;
             opacity: 1;
             visibility: visible;
+            transition: height 1s, opacity 2s;
             
         }
     </style>
