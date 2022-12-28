@@ -1,12 +1,21 @@
 body {
     margin: 0.1em;
 }
+.artile{
+    align-items: center;
+
+}
+.main{
+    align-items: flex-start;
+
+}
 .container{
    flex-direction:column ;
    height: auto;
-   background-color: grey;
+   background-color: rgb(108, 79, 79);
    align-items: flex-start;
    margin-bottom: 0.2em;
+   height: 35em;
 
 }
 .box{
